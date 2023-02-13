@@ -20,6 +20,9 @@ func main() {
 	var contaDoLucas *ContaCorrente
 	contaDoLucas = new(ContaCorrente)
 	contaDoLucas.titular = "Lucas"
+	contaDoLucas.numeroAgencia = 612
+	contaDoLucas.numeroConta = 321456
+	contaDoLucas.saldo = 12.0
 
 	fmt.Println(contaDoLucas)
 }
