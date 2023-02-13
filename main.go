@@ -24,5 +24,5 @@ func main() {
 	contaDoLucas.numeroConta = 321456
 	contaDoLucas.saldo = 12.0
 
-	fmt.Println(contaDoLucas)
+	fmt.Println(*contaDoLucas)
 }
